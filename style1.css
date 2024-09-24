@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: Roboto;
+}
+
+ul li{
+    list-style: none;
+}
+/* header */
+.head .img1{
+    height: 2rem;
+    width: auto;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #79c508;
+    font-size: 1.2rem;
+}
+.input{
+    border-radius: 25px;
+    background-color: #fbd49b;
+    padding: 0.6rem;
+    width: 60%;
+    height: 1.5rem;
+    margin-left: 20%;
+    text-align: center;
+    position: relative;
+}
+.input img{
+    height: 25px;
+    width: auto;
+    position: absolute;
+    bottom: 15%;
+    left: 82%;
+
+}
+.input input{
+    background: none;
+    border: none;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+}
+header ul li{
+    padding: 0.5rem ;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+header ul li span{
+     color:  #ee9207;
+}
+/* section one */
+
+.one .left img{
+    text-align: center;
+    background-color: #fbd49b;
+    height: 180px;
+    width: 150px;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 25px;
+}
+.one .middle1 .main {
+    padding: 0%;
+    margin: 0%;
+    background-color: white;
+    width: 280px;
+    height: 300px;
+}
+.one .right{
+    margin-left: 8%;
+    width: 90%;
+    height: 30rem;
+    overflow-y: scroll;
+}
+.one .right h1{
+    font-size: 1.5rem;
+    color: #1e1e1f;
+}
+.one .right p{
+    font-size: 1rem;
+    color: #2a2a2b;
+}
+.one .right span{
+    color: royalblue;
+}
+.one .right .features img{
+    height: 3rem;
+    width: auto;
+}
+.one .right .feature{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-top: 1rem;
+
+}
+.one .right .features .feature p{
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-left: 1rem;
+}
+
+.one .right .colors .color1{
+    margin: 0%;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #f5d730;
+}
+.one .right .colors .color1{
+    margin: 0%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #e286ee;
+}.one .right .colors .color2{
+    margin: 0%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #0a74bb;
+}.one .right .colors .color3{
+    margin: 0%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #2a2a2b;
+}.one .right .colors .color4{
+    margin: 0%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #89899665;
+}.one .right .colors .color5{
+    margin: 0%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #e71396f3;
+}.one .right .colors .color6{
+    margin: 0%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #05053d;
+}
+.one .colors ul{
+    display: flex;
+    justify-content: space-around;
+}
+.one .right .scroll .furniture2 span{
+    font-weight: bolder;
+    color: #2b2b2c;
+}
+.one .right .furniture ul li{
+    padding: 0.5rem;
+    font-size: 1rem;
+    list-style: disc;
+}
+.one .right .furniture ul li h1{
+    list-style: none;
+}
+.one .right .furniture2 ul li{
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+/* section two */
+.two h1{
+    color: #05053d;
+}
+.two table, th, td{
+    border: 2px solid black ;
+    border-collapse: collapse;
+    padding: 1rem;
+}
+.two table{
+    margin: 1rem;
+    text-align: center;
+}
+/* section three */
+.three {
+    padding: 1rem;
+    text-align: center;
+}
+.three h1{
+    color: #05053d;
+    text-align: start;
+}
+.three .items .item img{
+    background-color: #fbd49b;
+    text-align: center;
+    height: 180px;
+    width: 180px;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 25px;
+    margin-left: 15%;
+}
+.three .items .item{
+    margin-top: 1rem;
+}
+.three .items .item p{
+    color: #2a2a2b;
+    font-size: 1rem;
+    width: 70%;
+    margin: auto;
+    padding: 1rem;
+}
+.three .items .item button{
+    border: none;
+    background-color: #fbd49b;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    border-radius: 25px;
+    width: 10rem;
+}
+.five h1{
+    color: #05053d;
+    font-size: 1.7rem;
+    text-align: center;
+}
+.five .ratings .checked{
+    text-align: center;
+    color: #fdd703;
+    font-size: 1.9rem;
+    margin-left: 8%;
+}
+.five h2{
+    text-align: center;
+    font-weight: lighter;
+}
+.five .side{
+    float: left;
+   
+}
+.five .middle .bar-container{
+    
+    margin: 1rem 0 1rem 4rem;  
+}
+.five .bar-container {
+    width: 80%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    height: 1.5rem;
+}
+.five .row div {
+    font-size: 1.3rem;
+}
+  /* Individual bars */
+ .bar-5 {width: 60%; height: 1.5rem; background-color: #04AA6D;border-radius: 25px;}
+  .bar-4 {width: 50%; height: 1.5rem; background-color: #2196F3; border-radius: 25px;}
+  .bar-3 {width: 30%; height: 1.5rem; background-color: #00bcd4;border-radius: 25px;}
+  .bar-2 {width: 10%; height: 1.5rem; background-color: #ff9800; border-radius: 25px;}
+  .bar-1 {width: 15%; height: 1.5rem; background-color: #f44336; border-radius: 25px;}
+ 
+.six {
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 25px;
+    width: 80%;
+}
+.six .reviews .review img{
+    height: 80px;
+    width: 65px;
+    border-radius: 50%;
+}
+.six .reviews .review{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+    height: 100px;
+    width: 250px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.six .checked {
+    color:  #fdd703;
+    font-size: 1.2rem;
+}
+.seven {
+    display: none;
+
+
+
+}
+@media screen and (min-width:700px)  {
+    header .head h1{
+        font-size: 3rem;
+    }
+    header .head .img1{
+        height: 3rem;
+        width: 3rem;
+    }
+    header .input {
+        width: 40%;
+        margin: auto;
+    }
+    header ul li{
+        margin: 1rem 10%;
+        font-size: 1.7rem;
+    }
+    .one .left {
+        text-align: center;
+    }
+    .one .left ul img{
+        height: 300px;
+        width: 270px;
+    }
+    .one .middle1 .main {
+        height: 500px;
+        width: 450px;
+        margin-left: 25%;
+    }
+    .one .right{
+        width: 80%;
+        height: 40rem;
+    }
+    .one .right h1{
+        font-size: 2.5rem;
+    }
+    .one .right p{
+        font-size: 1.5rem;
+    }
+    .one .right h2{
+        font-size: 2rem;
+    }
+    .one .right .features{
+        text-align: start;
+    }
+    .one .right .features .feature img{
+        height: 4.5rem;
+    }
+    .one .right .features .feature p{
+        font-size: 1.5rem;
+        margin-left: 4rem;
+    }
+    .one .right .colors .color1{
+        height: 55px;
+        width: 55px;
+    }
+    .one .right .colors .color2{
+        height: 55px;
+        width: 55px;
+    }
+    .one .right .colors .color3{
+        height: 55px;
+        width: 55px;
+    }
+    .one .right .colors .color4{
+        height: 55px;
+        width: 55px;
+    }
+    .one .right .colors .color5{
+        height: 55px;
+        width: 55px;
+    }
+    .one .right .colors .color6{
+        height: 55px;
+        width: 55px;
+    }
+    .one .right .furniture2 ul li{
+        font-size: 1.7rem;
+    }
+    .one .right .furniture ul li{
+        font-size: 1.7rem;
+    }
+    /* section two */
+    .two h1{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .two table{
+        margin-left: 25%;
+    }
+    .two table, tr, tb{
+       font-size: 1.5rem;
+    }
+    /* section three */
+    .three h1{
+        font-size: 1.8rem;
+        margin-left: 2rem;
+    }
+    .three .items .item img{
+        height: 300px;
+        width: 300px;
+    }
+    .three .items .item p{
+        font-size: 1.4rem;
+        width: 40%;
+        margin: auto;
+        padding: 1rem;
+        margin-left: 35%;
+    }
+    .three .items .item .button{
+        padding: 1rem;
+        margin-left: 10%;
+    }
+    .five{
+        text-align: center;
+    }
+    .five .bar-container {
+        width: 60%;
+       height: 3rem;
+    }
+    .five h1{
+        font-size: 2rem;
+    }
+    .five .ratings .checked{
+        font-size: 2.9rem;
+        margin: 1rem 0;
+    }
+    .five .row{
+       margin-left: 20%;
+    }
+    .bar-5{height: 3rem;}
+    .bar-4{height: 3rem;}
+    .bar-3{height: 3rem;}
+    .bar-2{height: 3rem;}
+    .bar-1{height: 3rem;}
+    .five .row div {
+        font-size: 1.7rem;
+    }
+    .six .reviews .review{
+        width: 50%;
+       margin-left: 38%;
+    }
+    .six .review p{
+        font-size: 1.5rem;
+    }
+    .six .review .checked{
+        font-size: 1.5rem;
+    }
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1200px){
+    body{
+        width: 90%;
+        margin: auto;
+    }
+    header{
+        display: flex;
+        height: 20vh;
+    }
+    header .input {
+        width: 30%;
+        height: 2rem;
+        margin-right: 10%;
+    }
+    header ul{
+        margin-right: 5%; 
+    }
+    header ul li{
+        margin: 1rem;
+    }
+    /* section one */
+    .one {
+        display: flex;
+    }
+    .one .left ul img{
+        height: 120px;
+        width: 150px;
+    }
+    .one .middle1 .main{
+        height: 650px;
+        width: 500px;
+        margin-right: 15%;
+        margin-top: 10%;
+
+    }
+    .one .right{
+       width: 50%;
+       height: 47rem;
+       margin-left: 10%;
+    }
+    /* section two */
+    .two .table{
+        display: grid;
+        grid-template-columns: 50% auto;
+    } 
+    /* section three */
+    .three .items{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .three .items .item p{
+        width: 70%;
+        margin-left: 20%;
+    } 
+    .three .items item{
+        padding: 3rem;
+    }
+    .seven {
+        display: contents;
+        width: 50vh;
+    }
+    .seven table, tr, td{
+        border-collapse: collapse;
+        border: 2px solid black;
+        padding: 2rem;
+        margin: 4rem;
+    }
+    .seven .checked{
+        color: #f8bf23;
+    } 
+    .five{
+        display: grid;
+        grid-template-columns: 30% auto;
+    } 
+    .five .bar-container{
+        width: 100%;
+    }
+    .six .reviews{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-left: 20%;
+    }
+
+    .six .reviews .review {
+        width: 40%;
+        margin: 0;
+
+    }
+    .six .reviews .review{
+        padding: 2rem;
+    }
+
+
+
+}
